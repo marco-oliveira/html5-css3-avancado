@@ -9,6 +9,10 @@
     transition-delay: 0s, 1s;
 }
 
+.habilidades{
+    width: 100%;
+}
+
 tabindex,
 .citacao-bio:hover,
 .citacao-bio:focus {

@@ -15,6 +15,14 @@ body {
     font-size: 120%;
     line-height: 1.5;
 }
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    flex-grow: 1;
+}
 
 h1,
 h2,
@@ -154,8 +162,6 @@ em {
 }
 
 main {
-    width: calc(100% - 0.9 * 300px);
-    float: left;
     padding-bottom: 4em;
 }
 
@@ -168,9 +174,7 @@ main {
 
 .navegacao-site {
     width: calc(0.9 * 300px);
-    float: right;
-    position: relative;
-    top: 300px;
+    padding-top: calc(300px + 1em);
 }
 
 .minha-foto {
